@@ -11,3 +11,8 @@ button{
     border:none;
     border-color: 8px;
 }
+div{
+    background:black;
+    color:aquamarine;
+    border:square;
+}
