@@ -1,6 +1,6 @@
 console.log("Restaurant Website");
 const button = 
-document.queryselector("#btn");
+document.querySelector("#btn");
 
 button.addeventlistener("click",() =>{document.body,style.backgroundcolor = 
     "lightblue";
