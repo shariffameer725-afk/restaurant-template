@@ -5,5 +5,5 @@ const title =
 document.querySelector("#title");
 
 button.addEventListener("click",() =>{
-    title.textcontent ="Welcome!";
+    title.textContent ="Welcome!";
 });
