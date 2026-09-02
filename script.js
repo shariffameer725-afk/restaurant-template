@@ -1,7 +1,9 @@
 console.log("Restaurant Website");
 const button = 
 document.querySelector("#btn");
+const title = 
+document.querySelector("#title");
 
-button.addEventListener("click",() =>{document.body.style.backgroundColor = 
-    "lightblue";
+button.addEventListener("click",() =>{
+    title.textcontent ="Welcome!";
 });
