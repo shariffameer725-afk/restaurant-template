@@ -1,9 +1,10 @@
 console.log("Restaurant Website");
 const button = 
-button.querySelector("#menu");
+document.querySelector("#menu");
 const message = 
-message.querySelector("#message");
+document.querySelector("#message");
 
 button.addEventListener("click",() =>{
-    title.textContent ="our popular dishes";
+    message.textContent ="our popular dishes";
+    message.computedStyleMap.color = "green";
 });
