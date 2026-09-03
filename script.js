@@ -1,9 +1,9 @@
 console.log("Restaurant Website");
 const button = 
-document.querySelector("#btn");
-const title = 
-document.querySelector("#title");
+button.querySelector("#menu");
+const message = 
+message.querySelector("#message");
 
 button.addEventListener("click",() =>{
-    title.textContent ="Welcome!";
+    title.textContent ="our popular dishes";
 });
